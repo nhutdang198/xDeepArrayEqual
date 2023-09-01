@@ -1,0 +1,31 @@
+{
+  "name": "x-deep-array-equal",
+  "version": "0.0.1",
+  "description": "**xDeepArrayEqual** recursively compares two nested arrays for deep equality. It does so by checking whether the two input arrays are deeply equal, meaning they have the same values in the same structure",
+  "main": "xDeepArrayEqual.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.4",
+    "jest": "^29.6.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc xDeepArrayEqual.ts"
+  },
+  "author": "nhutdm",
+  "license": "MIT",
+  "keywords": [
+    "x-deep-array-equal",
+    "x deep array equal",
+    "compare two array",
+    "deep-array-equal",
+    "deep array equal",
+    "deep array diff",
+    "array diff",
+    "compare array"
+  ],
+  "dependencies": {
+    "x-deep-object-equal": "^0.0.1"
+  }
+}
